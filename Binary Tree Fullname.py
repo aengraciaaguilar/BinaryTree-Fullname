@@ -157,3 +157,8 @@ if __name__ == '__main__':
     print("In order traversal:", ph_tree.in_order_traversal())
     print("Pre order traversal:", ph_tree.pre_order_traversal())
     print("Post order traversal:", ph_tree.post_order_traversal())
+
+    ph_tree.delete(20)
+    print("After deleting the number 20", ph_tree.in_order_traversal())
+    ph_tree.delete(30)
+    print("After deleting the number 30", ph_tree.in_order_traversal())
