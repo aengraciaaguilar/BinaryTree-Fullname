@@ -135,3 +135,5 @@ if __name__ == '__main__':
 
     fullname_tree.delete("E")
     print("After deleting the letter E", fullname_tree.in_order_traversal())
+    fullname_tree.delete("N")
+    print("After deleting the letter N", fullname_tree.in_order_traversal())
