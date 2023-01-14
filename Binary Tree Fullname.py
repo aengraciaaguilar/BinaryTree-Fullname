@@ -152,3 +152,4 @@ if __name__ == '__main__':
     ph_tree = build_tree(phonenumber)
     print("My phonenumber:", phonenumber)
     print("Sum:", ph_tree.calculate_sum())
+    print("Min:", ph_tree.find_min())
