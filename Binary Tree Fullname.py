@@ -162,3 +162,6 @@ if __name__ == '__main__':
     print("After deleting the number 20", ph_tree.in_order_traversal())
     ph_tree.delete(30)
     print("After deleting the number 30", ph_tree.in_order_traversal())
+
+    print("Is the number 10 on the list of my phonenumber?", ph_tree.search(10))
+    print("Is the number 19 on the list of my phonenumber?", ph_tree.search(19))
