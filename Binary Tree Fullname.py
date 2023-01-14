@@ -130,4 +130,5 @@ if __name__ == '__main__':
     print("Min:",fullname_tree.find_min())
     print("Max:",fullname_tree.find_max())
     print("In order traversal:", fullname_tree.in_order_traversal())
+    print("Pre order traversal:", fullname_tree.pre_order_traversal())
 
