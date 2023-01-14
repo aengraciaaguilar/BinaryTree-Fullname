@@ -111,6 +111,10 @@ class BinarySearchTreeNode:
 
         return self
 
+    def calculate_sum(self):
+        left_sum = self.left.calculate_sum() if self.left else 0
+        right_sum = self.right.calculate_sum() if self.right else 0
+        return self.data + left_sum + right_sum
 
 def build_tree(elements):
     root = BinarySearchTreeNode(elements[0])
@@ -140,3 +144,5 @@ if __name__ == '__main__':
 
     print("Is the letter A on the list of my fullname? ", fullname_tree.search("A"))
     print("Is the letter Z on the list of my fullname? ", fullname_tree.search("Z"))
+    print("====================================================================================================================================")
+
