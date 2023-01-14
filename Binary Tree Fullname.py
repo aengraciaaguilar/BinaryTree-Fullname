@@ -51,6 +51,15 @@ class BinarySearchTreeNode:
 
         return elements
 
+    def build_tree(elements):
+        print("Building tree with these elements:", elements)
+        root = BinarySearchTreeNode(elements[0])
+
+        for i in range(1, len(elements)):
+            root.add_child(elements[i])
+
+        return root
+
     def post_order_traversal(self):
         elements = []
         if self.left:
@@ -101,3 +110,12 @@ class BinarySearchTreeNode:
             self.left = self.left.delete(max_val)
 
         return self
+
+
+def build_tree(elements):
+    root = BinarySearchTreeNode(elements[0])
+
+    for i in range(1,len(elements)):
+        root.add_child(elements[i])
+
+    return root
