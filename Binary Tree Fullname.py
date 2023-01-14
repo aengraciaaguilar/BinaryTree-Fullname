@@ -155,3 +155,4 @@ if __name__ == '__main__':
     print("Min:", ph_tree.find_min())
     print("Max:", ph_tree.find_max())
     print("In order traversal:", ph_tree.in_order_traversal())
+    print("Pre order traversal:", ph_tree.pre_order_traversal())
