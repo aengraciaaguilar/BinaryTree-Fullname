@@ -119,3 +119,12 @@ def build_tree(elements):
         root.add_child(elements[i])
 
     return root
+
+if __name__ == '__main__':
+    fullname = ["A", "E", "N", "G", "R", "A", "C", "I", "A",
+                "A", "M", "I", "L", "I", "C", "A", "Y",
+                "A", "G", "U", "I", "L", "A", "R"]
+    fullname_tree = build_tree(fullname)
+
+
+
