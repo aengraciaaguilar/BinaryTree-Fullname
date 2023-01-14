@@ -153,3 +153,4 @@ if __name__ == '__main__':
     print("My phonenumber:", phonenumber)
     print("Sum:", ph_tree.calculate_sum())
     print("Min:", ph_tree.find_min())
+    print("Max:", ph_tree.find_max())
