@@ -132,3 +132,6 @@ if __name__ == '__main__':
     print("In order traversal:", fullname_tree.in_order_traversal())
     print("Pre order traversal:", fullname_tree.pre_order_traversal())
     print("Post order traversal:", fullname_tree.post_order_traversal())
+
+    fullname_tree.delete("E")
+    print("After deleting the letter E", fullname_tree.in_order_traversal())
