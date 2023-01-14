@@ -126,5 +126,10 @@ if __name__ == '__main__':
                 "A", "G", "U", "I", "L", "A", "R"]
     fullname_tree = build_tree(fullname)
 
+    print("My fullname:",fullname)
+    print("Min:",fullname_tree.find_min())
+
+
+
 
 
